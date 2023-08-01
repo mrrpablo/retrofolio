@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="./input.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Personal Portfolio</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="md:flex  md:justify-between items-center md:px-[2rem] sticky top-0 z-[3] py-[1rem] md:py-0 bg-[#fbfbfb] border-b border-[1px] border-[#f1f1f1]"
+        id="navbar">
+        <div class="md:w-[30%] flex justify-center">
+            <a href="#home" class="flex justify-center">
+                <img src="./images/logo.png" alt="" class=" w-[30%] md:w-[40%] p-0">
+            </a>
+
+        </div>
+
+        <ul class="flex gap-[1rem] justify-center py-[0.5rem] md:w-[30%]">
+            <li class="hover:text-[#7e74f1]"><a href="#home">Home</a></li>
+            <li class="hover:text-[#7e74f1]"><a href="#services">Services</a></li>
+            <li class="hover:text-[#7e74f1]"><a href="#blog">Blog</a></li>
+            <li class="hover:text-[#7e74f1]"><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="flex justify-center  items-center gap-[2rem] md:w-[30%]">
+            <img src="./images/moon.svg" alt="">
+            <a href="https://drive.google.com/file/d/10NW5umpJAc2RISOF0UuS6ILZ9mLcdzT6/view?usp=drive_link" target="_blank"
+                class="border-solid border-2 border-gray-800 rounded-[5px] py-[8px] px-[15px] hover:bg-black hover:text-white">Resume</a>
+        </div>
+    </nav>
+
+    <!-- hero section -->
+    <div class="container flex flex-col-reverse justify-center md:flex md:flex-row md:justify-between items-center md:p-[3rem] p-[2rem]" id="home">
+        <div class="md:w-[50%] md:pt-[3rem]">
+            <div class="flex  items-center  gap-[1rem]">
+                <img src="./images/Above title line.png" alt="">
+                <h3 class="uppercase text-[12px] leading-[24px] font-medium text-[#656d72]"> my name is</h3>
+            </div>
+            <h1 class="uppercase font-bold text-[44px] leading-[2]"> Precious <span
+                    class="text-[#7e74f1]">Bassey.</span></h1>
+            <p class="leading-[32px] text-[#232e35] my-[2rem]">Creative front-end developer with less than a month of
+                experience in enterprise companies and startups. Currently learning Data Structure and Algorithm, HTML,
+                CSS, and TailwindCSS at TIIDELab. I'm also passionate about UI/UX</p>
+
+            <div>
+                <ul class="flex gap-[1rem] items-center">
+                    <li><a href="https://instagram.com/__retrooo?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://github.com/mrrpablo" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </li>
+                    <li><a href="https://twitter.com/retroo_xo" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                    <li><a href="https://www.linkedin.com/in/precious-bassey-01915723a/" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- profile picture -->
+        <div
+            class="container h-[80vh] bg-[url('../images/back.png')] bg-center bg-contain bg-no-repeat md:w-[50%] relative">
+            <img src="./images/1671786986842.jpg" alt=""
+                class="absolute rounded-[10px] w-[90%] md:w-[58%] top-[28%] md:top-[15%] left-[10%] md:left-[23%]">
+        </div>
+    </div>
+
+    <!-- Services -->
+    <section class="bg-[#fbfbfb] py-[2rem] md:py-[100px]" id="services">
+        <div class="text-center">
+            <div class="flex justify-center items-center gap-[1rem]">
+                <img src="./images/Above title line.png" alt="">
+                <h1 class="text-[#656d72] leading-[24px] uppercase font-medium">Services</h1>
+            </div>
+            <h2 class="text-[#232e35] text-[36px] font-bold">Specializes in</h2>
+        </div>
+
+        <div class="my-[2rem] md:flex justify-between items-center p-[2rem] text-center">
+            <div
+                class="md:w-[30%] flex justify-center items-center flex-col bg-white py-[5rem] px-[3rem] rounded-[5px]">
+                <img src="./images/Icon 5.png" alt="" class="my-[1rem]">
+                <h3 class="font-medium text-[#232e35] my-[1rem]">UI/UX</h3>
+                <p class="leading-[24px] text-[#232e35] my-[1rem]">Turn what you have in mind of a digital product into
+                    reality. For any platform you consider.</p>
+            </div>
+            <div
+                class="my-[2rem] md:w-[30%] flex justify-center items-center flex-col bg-white py-[5rem] px-[3rem] rounded-[5px]">
+                <img src="./images/Icon (4).png" alt="" class="my-[1rem]">
+                <h3 class="font-medium text-[#232e35] my-[1rem]">Mobile Development</h3>
+                <p class="leading-[24px] text-[#232e35] my-[1rem]">Standard designing, building, and implementing your
+                    applications with documentation.
+                </p>
+            </div>
+            <div
+                class="my-[2rem] md:w-[30%] flex justify-center items-center flex-col bg-white py-[5rem] px-[3rem] rounded-[5px]">
+                <img src="./images/Icon (3).png" alt="" class="my-[1rem]">
+                <h3 class="font-medium text-[#232e35] my-[1rem]">Website Development</h3>
+                <p class="leading-[24px] text-[#232e35] my-[1rem]">Create and maintain your websites and also take care of its
+                    performance and traffic capacity.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- my works -->
+    <section class="container md:py-[100px]">
+        <div class="p-[2rem]">
+            <div class="flex  items-center gap-[1rem]">
+                <img src="./images/Above title line.png" alt="">
+                <h2 class="uppercase leading-[24px] text-[#656d72] font-medium">my works</h2>
+            </div>
+            <h1 class="text-[36px]  font-bold text-[#232e35]">Featured Portfolios</h1>
+        </div>
+
+        <div class="md:flex justify-between items-center m-auto container p-[2rem] md:p-[100px]">
+            <div class="md:w-[30%] border-solid border-[1px] border-[#f5f5f5] rounded-[10px] my-[2rem] py-[1rem]">
+                <img src="./images/news_grid.png" alt="" class="rounded-[10px] h-[200px] w-[100%]  hover:opacity-80">
+                <div class=" bg-[#fff] px-[1rem] ">
+                    <h3 class="font-medium text-[#232e35] my-[1rem]">News Grid</h3>
+                    <div class="flex items-center gap-[1rem]">
+                        <a href="https://retroo-grid.vercel.app/" target="_blank"
+                            class="text-[12px] text-[#656d72] border-solid border-[1px] border-[#f1f1f1] py-[5px] px-[3px] rounded-[5px] cursor-pointer">Html
+                            + CSS</a>
+                        <a href="https://retroo-grid.vercel.app/" target="_blank" class="cursor-pointer">
+                            <i class="fa-solid fa-link text-[#656d72]"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="md:w-[30%] border-solid border-[1px] border-[#f5f5f5] rounded-[10px] my-[2rem] py-[1rem]">
+                <img src="./images/edgeledger.png" alt="" class="rounded-[10px] h-[200px] w-[100%]  hover:opacity-80">
+                <div class=" bg-[#fff] px-[1rem]">
+                    <h3 class="font-medium text-[#232e35] my-[1rem]">Edge Ledger</h3>
+                    <div class="flex items-center gap-[1rem]">
+                        <a href="https://edgeledger-iota.vercel.app/" target="_blank"
+                            class="text-[12px] text-[#656d72] border-solid border-[1px] border-[#f1f1f1] py-[5px] px-[3px] rounded-[5px] cursor-pointer">Html
+                            + CSS</a>
+                        <a href="https://edgeledger-iota.vercel.app/" target="_blank" class="cursor-pointer">
+                            <i class="fa-solid fa-link text-[#656d72]"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="md:w-[30%] border-solid border-[1px] border-[#f5f5f5] rounded-[10px] my-[2rem] py-[1rem]">
+                <img src="./images/rbt.png" alt="" class="rounded-[10px] h-[200px] w-[100%]  hover:opacity-80">
+                <div class=" bg-[#fff] px-[1rem]">
+                    <h3 class="font-medium text-[#232e35] my-[1rem]">RBT</h3>
+                    <div class="flex items-center gap-[1rem]">
+                        <a href="https://retroo-bt.vercel.app/" target="_blank"
+                            class="text-[12px] text-[#656d72] border-solid border-[1px] border-[#f1f1f1] py-[5px] px-[3px] rounded-[5px] cursor-pointer">Html
+                            + CSS</a>
+                        <a href="https://retroo-bt.vercel.app/" target="_blank" class="cursor-pointer">
+                            <i class="fa-solid fa-link text-[#656d72]"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog -->
+    <section class="container m-auto" id="blog">
+        <div class="text-center">
+            <div class="flex items-center justify-center gap-[1rem]">
+                <img src="./images/Above title line.png" alt="">
+                <h2 class="font-medium uppercase text-[#656d72] leading-[24px]">My articles</h2>
+            </div>
+            <h1 class="font-bold text-[36px] text-[#232e35] capitalize">personal blog</h1>
+        </div>
+
+        <div class="p-[2rem] md:flex justify-between items-center">
+            <div
+                class="md:w-[30%] bg-[#fff] border-solid border-[1px] border-[#f5f5f5] rounded-[5px] p-[2rem] my-[2rem]">
+                <img src="" alt="">
+                <h3 class="capitalize font-medium leading-[24px] text-[#232e35]">My TIIDELab Journey: First Month In The Training</h3>
+                <p class="leading-[32px] text-[#656d72] my-[2rem]">
+                    As I embarked on my software development journey with TIIDELab, I had few expectations mainly because I participated in the prefellowship...
+                </p>
+                <a href="#" class="font-medium text-center text-[#656d72]">Continue reading</a>
+            </div>
+            <div
+                class="md:w-[30%] bg-[#fff] border-solid border-[1px] border-[#f5f5f5] rounded-[5px] p-[2rem] my-[2rem]">
+                <img src="" alt="">
+                <h3 class="capitalize font-medium leading-[24px] text-[#232e35]">What Is NFT and Why Is It So Popular?</h3>
+                <p class="leading-[32px] text-[#656d72] my-[2rem]">
+                    Blockchain has completely changed the way we think about money and created a true era of digital property. Bitcoin is the first successful use case for....
+                </p>
+                <a href="https://medium.com/@precijagz480/what-is-nft-and-why-is-it-so-popular-5b29d04c959d" target="_blank" class="font-medium text-center text-[#656d72]">Continue reading</a>
+            </div>
+            <div
+                class="md:w-[30%] bg-[#fff] border-solid border-[1px] border-[#f5f5f5] rounded-[5px] p-[2rem] my-[2rem]">
+                <img src="" alt="">
+                <h3 class="capitalize font-medium leading-[24px] text-[#232e35]">Criteria That Should be Factored Into Creating a Web3 Game</h3>
+                <p class="leading-[32px] text-[#656d72] my-[2rem]">The fate of the gaming business is most certainly firmly associated with Web3. However, such a strong beneficial interaction needs a…</p>
+                <a href="https://medium.com/@precijagz480/welcome-to-the-cyberpunk-themed-world-key-features-of-project-hives-metaverse-fd9b22b3b159" target="_blank" class="font-medium text-center text-[#656d72]">Continue reading</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial -->
+    <section class="container m-auto py-[100px] bg-[#fbfbfb]" id="testimonial">
+        <div class="p-[2rem]">
+            <div class="flex items-center gap-[1rem]">
+                <img src="./images/Above title line.png" alt="">
+                <h2 class="uppercase font-medium text-[#656d72]">my clients</h2>
+            </div>
+            <h1 class="font-bold text-[36px] text-[#232e35]">Testimonials</h1>
+        </div>
+
+        <div class="md:flex justify-between items-center p-[2rem]">
+            <div class="md:w-[30%] bg-[#fff] py-[3rem] px-[2rem] rounded-[10px] my-[3rem] flex flex-col items-center">
+                <img src="./images/WhatsApp Image 2023-08-01 at 3.15.46 PM (1).jpeg" alt="" class="w-16 -mt-20 rounded-[50%]">
+                <p class="leading-[28px] text-[#232e35] my-[2rem]">We were very pleased to hear how you resolved our
+                    website's user interface issues and challenges.
+                </p>
+                <p class="text-[14px] font-medium mb-[1rem]">Haruna Idris</p>
+                <p
+                    class="text-[12px] text-[#656d72] text-center font-medium bg-[#fbfbfb] border-solid border-[1px] border-[#fbfbfb] py-[5px] px-[5px] w-[80px] rounded-[5px]">
+                    Designer</p>
+            </div>
+
+            <div class="md:w-[30%] bg-[#fff] py-[3rem] px-[2rem] rounded-[10px] my-[3rem] flex flex-col items-center">
+                <img src="./images/WhatsApp Image 2023-08-01 at 3.15.47 PM.jpeg" alt="" class="w-16 -mt-20 rounded-[50%]">
+                <p class="leading-[28px] text-[#232e35] my-[2rem]">I’m glad I decided to work with you. The project was
+                    delivered on time with all the requirements.
+
+                </p>
+                <p class="text-[14px] font-medium mb-[1rem]">Muhammed Najeeb</p>
+                <p
+                    class="text-[12px] text-[#656d72] text-center font-medium bg-[#fbfbfb] border-solid border-[1px] border-[#fbfbfb] py-[5px] px-[5px] w-[80px] rounded-[5px]">
+                    Developer</p>
+            </div>
+            <div class="md:w-[30%] bg-[#fff] py-[3rem] px-[2rem] rounded-[10px] my-[3rem] flex flex-col items-center">
+                <img src="./images/WhatsApp Image 2023-08-01 at 3.15.46 PM.jpeg" alt="" class="w-16 -mt-20 rounded-[50%]">
+                <p class="leading-[28px] text-[#232e35] my-[2rem]">The management of our projects was always faced with
+                    difficulties, but you handled these well.
+
+                </p>
+                <p class="text-[14px] font-medium mb-[1rem]">Oyedumade Damilola</p>
+                <p
+                    class="text-[12px] text-[#656d72] text-center font-medium bg-[#fbfbfb] border-solid border-[1px] border-[#fbfbfb] py-[5px] px-[5px] w-[80px] rounded-[5px]">
+                    Manager</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="bg-[#fbfbfb] container md:p-[80px] m-auto" id="contact">
+        <div class="md:flex justify-between items-center p-[2rem]">
+            <div class="md:w-[50%] flex justify-between">
+                <form class="w-[100%]">
+                    <input type="text" placeholder="Name" class=" w-[100%] mb-[1rem] p-[0.5rem] rounded-[5px]">
+                    <input type="email" placeholder="Email" class=" w-[100%] mb-[1rem] p-[0.5rem] rounded-[5px]">
+                    <textarea cols="30" rows="10" placeholder="Message"
+                        class=" w-[100%] mb-[1rem] p-[0.5rem] rounded-[5px]"></textarea>
+                    <input type="submit" value="Send Message"
+                        class=" w-[100%] bg-[#7e74f1] border-[#eae4fe] border-solid border-[1px] font-medium text-[#f5f3fe] p-[0.5rem] rounded-[10px] cursor-pointer hover:opacity-90">
+                </form>
+            </div>
+            <div class="md:w-[50%] md:p-[5rem] my-[3rem]">
+                <div class="flex items-center gap-[1rem] my-[1.5rem]">
+                    <img src="./images/Icon.png" alt="">
+                    <div>
+                        <p>Address</p>
+                        <p>19th Street, BDPA</p>
+                    </div>
+                </div>
+                <div class="flex items-center gap-[1rem] my-[1.5rem]">
+                    <img src="./images/Icon (1).png" alt="">
+                    <div>
+                        <p>Phone</p>
+                        <p>+234-123-456-7890</p>
+                    </div>
+                </div>
+                <div class="flex items-center gap-[1rem] my-[1.5rem]">
+                    <img src="./images/Icon (2).png" alt="">
+                    <div>
+                        <p>Email</p>
+                        <p>precijagz480@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center p-[2rem]">
+        <ul class="flex gap-[1rem] items-center justify-center">
+            <li><a href="https://instagram.com/__retrooo?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><i
+                        class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://github.com/mrrpablo" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+            <li><a href="https://twitter.com/retroo_xo" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/precious-bassey-01915723a/" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i></a></li>
+        </ul>
+        <p>&copy; 2023 - Retrooo</p>
+    </footer>
+
+    <script>
+        window.addEventListener('scroll', function () {
+            if (window.scrollY > 150) {
+                document.querySelector('#navbar').style.opacity = 0.9;
+            } else {
+                document.querySelector('#navbar').style.opacity = 1;
+            }
+        });
+
+        // Smooth Scrolling
+        $('#navbar a').on('click', function (event) {
+            if (this.hash !== '') {
+                event.preventDefault();
+
+                const hash = this.hash;
+
+                $('html, body').animate(
+                    {
+                        scrollTop: $(hash).offset().top - 100
+                    },
+                    1500
+                );
+            }
+        });
+    </script>
+</body>
+
+</html>
